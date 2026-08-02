@@ -1,0 +1,20 @@
+{
+    "title": "Person",
+    "type": "object",
+    "description": "A person object with name, age, and email.",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The name of the person."
+        },
+        "age": {
+            "type": "integer",
+            "description": "The age of the person."
+        },
+        "email": {
+            "type": "string",
+            "description": "The email address of the person."
+        }
+    },
+    "required": ["name", "age", "email"]
+}
